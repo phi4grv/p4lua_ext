@@ -2,7 +2,7 @@ rockspec_format = "3.0"
 package = "p4lua_ext"
 version = "0.1-1"
 source = {
-   url = "git+https://github.com/phi4grv/p4lua_ext.git"
+   url = "git+https://github.com/phi4grv/p4lua_ext.git",
 }
 description = {
    homepage = "https://github.com/phi4grv/p4lua_ext",
@@ -12,10 +12,10 @@ dependencies = {
    "lua >= 5.1, < 5.5",
 }
 build_dependencies = {
-   "luarocks-build-rust-mlua",
+   "luarocks-build-p4mlua",
 }
 build = {
-   type = "rust-mlua",
+   type = "p4mlua",
    modules = {
       ["p4lua_ext"] = "p4lua_ext"
    },
