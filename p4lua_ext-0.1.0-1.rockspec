@@ -1,6 +1,6 @@
 rockspec_format = "3.0"
 package = "p4lua_ext"
-version = "0.1-1"
+version = "0.1.0-1"
 source = {
    url = "git+https://github.com/phi4grv/p4lua_ext.git",
 }
