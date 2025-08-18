@@ -1,0 +1,21 @@
+{
+    "runtime": {
+        "version": "Lua 5.4",
+        "path": [
+            "src/?.lua",
+            "src/?/init.lua",
+            "lua_modules/share/lua/5.4/?.lua",
+            "lua_modules/share/lua/5.4/?/init.lua"
+        ],
+    },
+    "diagnostics": {
+        "globals": ["describe", "it", "before_each", "after_each", "setup", "teardown", "expose"]
+    },
+    "workspace": {
+        "checkThirdParty": false,
+        "library": [
+            "src",
+            "lua_modules/share/lua/5.4"
+        ]
+    }
+}
